@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-color: #261C1D !important;
+}
+
+.home-tron {
+  height: 90vh;
+  margin-bottom: 0px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url("https://cdn1.matadornetwork.com/blogs/1/2014/08/Smith-Rock.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.home-title .container {
+  display: flex;
+  justify-content: center;
+}
+
+.home-title h1 {
+  text-align: center;
+}
+
+.btn-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.home-title p a {
+  margin-top: 50px;
+  self-align: center;
+}
+
+.bg-subtitle {
+  display: none;
+}
+
+.sm-subtitle {
+  display: flex;
+  justify-content: center;
+  padding: 5%;
+}
+
+.page-title h1 {
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.crag {
+  display: flex;
+  flex-direction: column;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 15px;
+  margin: 30px 0;
+}
+
+.crag img {
+  width: 100%;
+  border-radius: 15px 15px 0 0;
+}
+
+.crag-info {
+  padding: 20px;
+
+}
+
+.grade-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.grades {
+  padding: 0 20px;
+  display: flex;
+}
+
+.grades p {
+  font-size: 20px;
+}
+
+.grade {
+  font-weight: 700;
+  margin-right: 10px;
+}
+
+.footer {
+  width: 100%;
+  background-color: #261C1D;
+  padding: 30px 10%;
+  min-height: 10vh;
+}
+
+.footer-links {
+  color: rgba(255,255,255,.5);
+}
+
+.footer-links:hover {
+  color: rgba(255,255,255,1);
+}
+
+.footer-links:visited {
+  color: rgba(255,255,255,.5);
+}
+
+@media only screen and (min-width: 900px) {
+
+  .home-tron {
+    justify-content: flex-start;
+  }
+
+  .home-tron h1 {
+    text-align: left;
+  }
+
+  .home-tron .container {
+    width: 80%;
+    justify-content:  flex-start;
+  }
+
+  .bg-subtitle {
+    display: block;
+  }
+
+  .sm-subtitle {
+    display: none;
+  }
+
+  .crag {
+    flex-direction: row;
+  }
+
+  .crag img {
+    height: 100%;
+    border-radius: 15px 0 0 15px;
+  }
+
+  .crag-info {
+
+
+  }
+
+  .grade-container {
+
+  }
+
+  .grades {
+
+  }
+
+  .grades p {
+
+  }
+
+  .grade {
+    
+  }
+
+}
